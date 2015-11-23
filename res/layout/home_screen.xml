@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/toolbar_home"
+        layout="@layout/tool_bar" />
+
+    <Button
+        android:id="@+id/btn_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_home"
+        android:layout_centerHorizontal="true"
+        android:text="ListView" />
+
+    <Button
+        android:id="@+id/btn_recycler_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_listview"
+        android:layout_centerHorizontal="true"
+        android:text="Recycler View" />
+
+    <Button
+        android:id="@+id/btn_card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_recycler_view"
+        android:layout_centerHorizontal="true"
+        android:text="Card View with Pager" />
+
+    <Button
+        android:id="@+id/btn_card_view_recycler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_card_view"
+        android:layout_centerHorizontal="true"
+        android:text="Card View" />
+
+    <Button
+        android:id="@+id/btn_view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_card_view_recycler"
+        android:layout_centerHorizontal="true"
+        android:text="View Pager" />
+
+    <Button
+        android:id="@+id/btn_gif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_view_pager"
+        android:layout_centerHorizontal="true"
+        android:text="Gif Image" />
+
+</RelativeLayout>
